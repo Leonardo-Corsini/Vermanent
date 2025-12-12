@@ -79,6 +79,7 @@ pip install --upgrade pip
 pip install -r requirements.txt
 
 # torch installed separately with CUDA support
+You can chose the right installation command depending on your cuda architecture here: https://pytorch.org/
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
 ```
 Whisper needs ffmpeg to work properly,
